@@ -68,11 +68,11 @@ body{
 
 }
 .button1{
-    color:white;
     border-color:blue ;
     width: 6em;
     height: 2.3em;
     background-color: blue;
+    color:white !important;
     position: relative;
     left: -3em;
    }
@@ -82,7 +82,7 @@ body{
     border-color:rgb(0, 126, 230) ;
 }
 .button2{
-    color:white;
+    color:white !important;
     border-color: blue;
     width: 6em;
     height: 2.3em;
@@ -114,4 +114,5 @@ body{
     width: 18em;
     height: 3em;
 }
+
 
