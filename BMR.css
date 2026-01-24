@@ -18,10 +18,12 @@ body{
 .A:hover{border-color: aqua;}
 .B:hover{border-color: aqua;}
 .D:hover{border-color: aqua;}
+.date:hover{border-color: aqua;}
 
 
 .link:hover{color: red;}
 .A{
+    border: solid 0.1em;
     text-indent: 5%;
     border-color: transparent;
     width: 18em;
@@ -31,36 +33,82 @@ body{
 
 
 .B{
+    border: solid 0.1em;
     text-indent: 5%;
     border-color: transparent;
     width: 18em;
-     height: 3em;
+    height: 3em;
 }
 
 .C:hover {
-    border-color: aqua;
-    background-color:gray ;
+    border-color: rgb(0, 179, 255);
+    background-color:rgb(0, 179, 255) ;
 }
 .C:active {
-    border-color: black;
-    background-color: black;
+    border-color: rgb(8, 61, 233);
+    background-color: rgb(0, 179, 255);
 }
 
 .C{
    color: aliceblue;
+   border-color:blue;
    width: 19em;
-   background-color: black;
+   background-color: blue;
    height: 2.5em;
 }
 .D{
+    border: solid 0.1em;
     text-indent: 5%;
     border-color: transparent;
     width: 18em;
-     height: 3em;
+    height: 3em;
 }
 .a:hover{
     color: red;
 
 }
+.button1{
+    border-color:blue ;
+    width: 6em;
+    height: 2.3em;
+    background-color: blue;
+    position: relative;
+    left: -3em;
+   }
+.button1 a {color: white;}
+.button1:hover{
+    background-color: rgb(0, 126, 230);
+    border-color:rgb(0, 126, 230) ;
+}
+.button2{
+    border-color: blue;
+    width: 6em;
+    height: 2.3em;
+    background-color: blue;
+    position: relative;
+    right:-3em ;
+   }
+   .button2:hover{
+    background-color: rgb(0, 126, 230);
+    border-color:rgb(0, 126, 230) ;
+}
 
-
+.button2 a {color: white;}
+.bx{
+    position: relative;
+    left: -1.8em;
+    top: 0.2em;
+}
+.bxr{
+    position: relative;
+    left: -1.8em;
+    top: 0.2em;
+}
+.date{
+    font-family: 'Poppins', sans-serif;
+    border: solid 0.1em;
+    text-indent: 5%;
+    border-color: transparent;
+    width: 18em;
+    height: 3em;
+}
