@@ -14,8 +14,6 @@ body{
     line-height: 4em;
     width: fit-content; 
     background-color: aliceblue;
-    width: 80%;
-    height: 90%;
 }
 .A:hover{border-color: aqua;}
 .B:hover{border-color: aqua;}
