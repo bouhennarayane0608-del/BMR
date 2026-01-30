@@ -1,0 +1,265 @@
+body{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+}
+
+.box{
+    
+}
+
+.st button{
+    background: none;
+    border: none;
+    font-size: 26px;
+    cursor: pointer;
+}
+.nd{
+    position: fixed;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;           
+    background: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+   
+    
+}
+
+.comm:hover{
+    background-color: lightgreen;
+    color: white;
+}
+.cup:hover{
+    background-color: lightgreen;
+    color: white;
+}
+.user:hover{
+    background-color: lightgreen;
+    color: white;
+}
+.bell:hover{
+    background-color: lightgreen;
+    color: white;
+}
+.search:hover{
+    background-color: lightgreen;
+    color: white;
+}
+.plus:hover{
+    background-color: lightgreen;
+    color: white;
+}
+
+
+.home{
+    width: 3.5em;
+    height: 1.5em;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 30px;
+    background-color: lightgreen;
+    color: white;
+   
+}
+.comm{
+    width: 3.5em;
+    height: 1.5em;
+    background-color: transparent;
+     border-color: transparent;
+     font-size: 30px;
+}
+.cup{
+    width: 3.5em;
+    height: 1.5em;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 30px;
+}
+.user{
+    width: 3.5em;
+    height: 1.5em;
+    background-color: transparent;
+     border-color: transparent;
+     font-size: 30px;
+}
+.search{
+    width: 3.5em;
+    height: 1.5em;
+    background-color: transparent;
+     border-color: transparent;
+     font-size: 30px;
+}
+.bell{
+    width: 3.5em;
+    height: 1.5em;
+    position: relative; 
+    top: 0.1px;
+    left: 12em;
+    background-color: transparent;
+     border-color: transparent;
+     font-size: 30px;
+}
+.plus{
+    width: 3.5em;
+    height: 1.5em;
+    position: relative;
+    top: 0.1px;
+    left: 12em;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 30px;
+}
+.Quiz{
+    line-height: 3.5em;
+    text-indent: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+.A{
+    text-indent: 7.5em;
+    background-color: aqua;
+    border-radius: 0.5em;
+    font-size: 20px;
+    height: 2.8em;
+    border-color: transparent;
+    width: 23em;
+    
+}
+.B{
+    background-color: thistle;
+    border-radius: 0.5em;
+    font-size: 20px;
+    height: 2.8em;
+    text-indent: 7.5em;
+    border-color: transparent;
+    width: 23em;
+}
+
+.C{
+    width: 23em;
+    background-color: yellow;
+    border-radius: 0.5em;
+    font-size: 20px;
+    height: 2.8em;
+    text-indent: 7.5em;
+    border-color: transparent;
+}
+
+.D{
+    background-color: lightblue;
+    border-radius: 0.5em;
+    font-size: 20px;
+    height: 2.8em;
+    text-indent: 7.5em;
+    border-color: transparent;
+    width: 23em;
+}
+
+.E{
+    background-color: wheat;
+    border-radius: 0.5em;
+    font-size: 20px;
+    height: 2.8em;
+    text-indent: 7.5em;
+    border-color: transparent;
+    width: 23em;
+}
+
+.F{
+    background-color: orange;
+    border-radius: 0.5em;
+    font-size: 20px;
+    height: 2.8em;
+    text-indent: 7.5em;
+    border-color: transparent;
+    width: 23em;
+}
+.A:hover{
+    background-color: lightgreen;
+    color: white;
+}
+.B:hover{
+    background-color: lightgreen;
+    color: white;
+}
+.C:hover{
+    background-color: lightgreen;
+    color: white;
+}
+.D:hover{
+    background-color: lightgreen;
+    color: white;
+}
+.E:hover{
+    background-color: lightgreen;
+    color: white;
+}
+.F:hover{
+    background-color: lightgreen;
+    color: white;
+}
+.bx-football{
+    position: relative;
+    left: -10em;
+    font-size: 30px;
+}
+.bx-book{
+    position: relative;
+    left: -10.2em;
+    font-size: 30px;
+}
+.bx-islam{
+    position: relative;
+    left: -10.2em;
+    font-size: 30px;
+}
+.bx-pi{
+    position: relative;
+    left: -9.8em;
+    font-size: 30px;
+}
+.bx-landmark{
+    position: relative;
+    left: -10em;
+    font-size: 30px;
+}
+.bx-globe-africa{
+    position: relative;
+    left: -10em;
+    font-size: 30px;
+}
+.A:active{
+    background-color: lightgreen;
+    color: white;
+   
+}
+.B:active{
+    background-color: lightgreen;
+    color: white;
+   
+}
+.C:active{
+    background-color: lightgreen;
+    color: white;
+   
+}
+.D:active{
+    background-color: lightgreen;
+    color: white;
+   
+}
+.E:active{
+    background-color: lightgreen;
+    color: white;
+   
+}
+.F:active{
+    background-color: lightgreen;
+    color: white;
+   
+}
